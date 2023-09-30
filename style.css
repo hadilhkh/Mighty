@@ -1,0 +1,107 @@
+.container{
+    width: 1010.500px 609.900px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 32.250px;
+    padding-right: 32.250px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    flex-direction: row;
+    line-height: 1.2px;
+}
+.container{
+    background-color: black;
+    color: white;
+}
+.corps{
+    grid-column-gap: 3em;
+    grid-row-gap: 3em;
+    grid-template-rows: auto;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    display: grid;
+    font-weight: 500;
+    font-family: aeonik, sans-serif ;
+    line-height: 1.6;
+}
+
+.vide{
+    flex-direction: column;
+    align-items: flex-start;
+    height: 399.42px;
+    width: 299.73px;
+}
+
+.colonne2{
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    height: 266.29px;
+    width: 299.73px;
+    font-weight: bold;
+}
+
+.colonne3{
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    height: 266.29px;
+    width: 299.73px;
+    line-height: 12px;
+}
+
+.titres{
+    color:limegreen;
+    font-weight: bold;
+}
+
+.email{
+    color:palegreen;
+}
+
+.sign{
+    margin-top: 32.250px;
+}
+.contacter{
+    line-height: 20px;
+}
+.RESS, .sign{
+    font-weight: bold;
+}
+.sign{
+    line-height: 20px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+.site{
+    display: flex;
+    align-items: center;
+}
+.paragauche{
+    margin-left: 12.900px;
+}
+.conditions{
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+}
+.logos{
+    display: flex;
+    align-items: center;
+}
+#privacy:hover{color: lightgreen;}
+#terms:hover{color: lightgreen;}
+#security:hover{color: lightgreen;}
+#disclaimer:hover{color: lightgreen;}
+#BAA:hover{color: lightgreen;}
